@@ -1,13 +1,17 @@
-# offline-first-react-app
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This sample react app provides a simple comparison on how offline first webapps work when offline first feature 
-is enabled and disabled in an react app. 
+## Available Scripts
 
-The project consists of two main branches `before_offline` and `after_offline` where `before_offline` branch contains 
-the implementation for offline disabled app and `after_offline` branch contains the implementation for offline feature
-enabled react webapp.
+In the project directory, you can run:
 
-Both web apps are deployed and hosted in Firebase therefore you can simply check the difference.
+```
+1. yarn install - Install dependencies
+2. yarn start - run app locally http://localhost:3000
+3. yarn build - build a production version to be deployed
+```
+
+## Firebase webapp
+
 ```
 - Offline disabled webapp - https://offline-disabled.firebaseapp.com
 - Offline enabled webapp  - https://offline-enabled.firebaseapp.com
